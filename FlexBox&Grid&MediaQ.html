@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box, Grid & Media Query</title>
+<style>
+        .parent{
+            height: 100vh;
+            background-color: black;
+            display: grid;
+            grid-template-columns: 20% 20%  20% 20%;
+            grid-template-rows:100px 200px 100px;
+        }
+        .child1{
+            grid-area: 1 / 1/ span 2/ span 2;
+            background-color: orange;
+        }
+        .child1 p{
+            display: none;
+        }
+        .child2{
+            grid-area: 2/ 1 /span 3 / span 1;
+            background-color: red;
+        }
+        /*Laptop L width=1440px*/
+        @media screen and (min-width:320px) and (max-width:600px) { 
+            .child1{
+                grid-area: 2/ 1 /span 3 / span 1;
+            }
+            .child2{
+                grid-area: 1 / 1/ span 2/ span 2; 
+            }
+        }
+        /*Mobile S*/
+        @media screen and (max-width:400px) {
+
+            .child1 p{
+                display: block;
+                color:white
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ducimus dolor facilis suscipit ex, fugit, nemo, officiis nostrum unde libero ipsum omnis illo quia porro nobis nihil recusandae voluptates. Quod.</p>
+        </div>
+        <div class="child2"></div>
+    </div>
+</body>
+</html>
+<style>
+        .parent{
+            height: 100vh;
+            background-color: black;
+            display: grid;
+            grid-template-columns: 20% 20%  20% 20%;
+            grid-template-rows:100px 200px 100px;
+        }
+        .child1{
+            grid-area: 1 / 1/ span 2/ span 2;
+            background-color: orange;
+        }
+        .child1 p{
+            display: none;
+        }
+        .child2{
+            grid-area: 2/ 1 /span 3 / span 1;
+            background-color: red;
+        }
+        /*Laptop L width=1440px*/
+        @media screen and (min-width:320px) and (max-width:600px) { 
+            .child1{
+                grid-area: 2/ 1 /span 3 / span 1;
+            }
+            .child2{
+                grid-area: 1 / 1/ span 2/ span 2; 
+            }
+        }
+        /*Mobile S*/
+        @media screen and (max-width:400px) {
+
+            .child1 p{
+                display: block;
+                color:white
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ducimus dolor facilis suscipit ex, fugit, nemo, officiis nostrum unde libero ipsum omnis illo quia porro nobis nihil recusandae voluptates. Quod.</p>
+        </div>
+        <div class="child2"></div>
+    </div>
+</body>
+</html>
+<style>
+        .parent{
+            height: 100vh;
+            background-color: black;
+            display: grid;
+            grid-template-columns: 20% 20%  20% 20%;
+            grid-template-rows:100px 200px 100px;
+        }
+        .child1{
+            grid-area: 1 / 1/ span 2/ span 2;
+            background-color: orange;
+        }
+        .child1 p{
+            display: none;
+        }
+        .child2{
+            grid-area: 2/ 1 /span 3 / span 1;
+            background-color: red;
+        }
+        /*Laptop L width=1440px*/
+        @media screen and (min-width:320px) and (max-width:600px) { 
+            .child1{
+                grid-area: 2/ 1 /span 3 / span 1;
+            }
+            .child2{
+                grid-area: 1 / 1/ span 2/ span 2; 
+            }
+        }
+        /*Mobile S*/
+        @media screen and (max-width:400px) {
+
+            .child1 p{
+                display: block;
+                color:white
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ducimus dolor facilis suscipit ex, fugit, nemo, officiis nostrum unde libero ipsum omnis illo quia porro nobis nihil recusandae voluptates. Quod.</p>
+        </div>
+        <div class="child2"></div>
+    </div>
+</body>
+</html>
+<style>
+        .parent{
+            height: 100vh;
+            background-color: black;
+            display: grid;
+            grid-template-columns: 20% 20%  20% 20%;
+            grid-template-rows:100px 200px 100px;
+        }
+        .child1{
+            grid-area: 1 / 1/ span 2/ span 2;
+            background-color: orange;
+        }
+        .child1 p{
+            display: none;
+        }
+        .child2{
+            grid-area: 2/ 1 /span 3 / span 1;
+            background-color: red;
+        }
+        /*Laptop L width=1440px*/
+        @media screen and (min-width:320px) and (max-width:600px) { 
+            .child1{
+                grid-area: 2/ 1 /span 3 / span 1;
+            }
+            .child2{
+                grid-area: 1 / 1/ span 2/ span 2; 
+            }
+        }
+        /*Mobile S*/
+        @media screen and (max-width:400px) {
+
+            .child1 p{
+                display: block;
+                color:white
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ducimus dolor facilis suscipit ex, fugit, nemo, officiis nostrum unde libero ipsum omnis illo quia porro nobis nihil recusandae voluptates. Quod.</p>
+        </div>
+        <div class="child2"></div>
+    </div>
+</body>
+</html>
+<style>
+        .parent{
+            height: 100vh;
+            background-color: black;
+            display: grid;
+            grid-template-columns: 20% 20%  20% 20%;
+            grid-template-rows:100px 200px 100px;
+        }
+        .child1{
+            grid-area: 1 / 1/ span 2/ span 2;
+            background-color: orange;
+        }
+        .child1 p{
+            display: none;
+        }
+        .child2{
+            grid-area: 2/ 1 /span 3 / span 1;
+            background-color: red;
+        }
+        /*Laptop L width=1440px*/
+        @media screen and (min-width:320px) and (max-width:600px) { 
+            .child1{
+                grid-area: 2/ 1 /span 3 / span 1;
+            }
+            .child2{
+                grid-area: 1 / 1/ span 2/ span 2; 
+            }
+        }
+        /*Mobile S*/
+        @media screen and (max-width:400px) {
+
+            .child1 p{
+                display: block;
+                color:white
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ducimus dolor facilis suscipit ex, fugit, nemo, officiis nostrum unde libero ipsum omnis illo quia porro nobis nihil recusandae voluptates. Quod.</p>
+        </div>
+        <div class="child2"></div>
+    </div>
+</body>
+</html>
